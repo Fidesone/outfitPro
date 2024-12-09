@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component'; 
 import { HeadComponent } from './head/head.component';
+import { BotonComponent } from './boton/boton.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent, 
-    HeadComponent
+    HeadComponent,
+    BotonComponent
   ],
   imports: [
     BrowserModule
